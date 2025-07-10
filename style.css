@@ -1,0 +1,451 @@
+/* *CSS Boilerplate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.background-img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.background-img img {
+  width: 55%;
+  height: 80%;
+  object-position: 50% 85%;
+  object-fit: cover;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: absolute;
+  /* background-color: red; */
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navbar {
+  width: 100%;
+  height: 15%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15rem;
+}
+
+.logo {
+  width: 15%;
+  height: 50%;
+  /* background-color: purple; */
+}
+.links {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+}
+
+/* section 1 and its components  */
+.section1 {
+  height: 100%;
+  width: 10%;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10rem;
+}
+.section1 h5 {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+
+.section1 .line {
+  width: 3px;
+  height: 20%;
+  background-color: rgba(128, 128, 128, 0.726);
+}
+
+/* section 2 and its componentss  */
+.section2 {
+  height: 100%;
+  width: 80%;
+  /* background-color: rgb(24, 38, 170); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-container1 {
+  width: 100%;
+  height: 60%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hero-container1 h1 {
+  font-size: 6rem;
+}
+.hero-container1 p {
+    font-size: 20px;
+}
+.hero-container1 button {
+  width: 18%;
+  height: 10%;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+/* hero container and its utils style here  */
+.hero-container2 {
+  width: 100%;
+  height: 10%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 2em;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.icons i {
+  font-size: 32px;
+}
+.hero-container2 .line {
+  width: 50%;
+  height: 3px;
+  background-color: gray;
+  margin-left: auto;
+}
+.hero-container2 h3 {
+  font-size: 1.5em;
+}
+
+/* section 3 and its components */
+.section3 {
+  height: 100%;
+  width: 10%;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 svg {
+  /* height: 10px; */
+  width: 50px;
+}
+
+/* page2 code start from here  */
+
+
+.page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.page2 img {
+    height: 60%;
+    width: 50%;
+}
+.page2 .card {
+    height: 40%;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+ .card .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+.card .left p {
+    font-size: 18px;
+    color: gray;
+}
+.card .left h2 {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+/* third page code  here  */
+
+
+.page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+/* section 1 of page3 code goes here  */
+.p3-section1{
+    width: 20%;
+    height: 100%;
+    padding-left: 5%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.p3-section1 h1 {
+    font-weight: 900;
+    margin-top: 16px;  
+}
+
+.p3-section1 h3 {
+    margin-top: 16px;
+    font-weight: 900;
+}
+.p3-section1 h4 {
+    font-weight: 400;
+}
+
+.p3-section1 button {
+    width: 70%;
+    font-size: medium;
+    font-weight: 900;
+    height: 5%;
+    border: 2.5px solid black;
+    border-radius: 6px;
+    margin-top: 32px;
+    background-color: white;
+    /* background-color: white; */
+}
+
+
+/* section 2 of page3 code goes here  */
+.p3-section2{
+    width: 70%;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.p3-section2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.page4{
+    height: 100%;
+    width: 100%;
+    /* background-color:antiquewhite; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.page4{
+    width: 100%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    padding: 5% 10%
+}
+.page4 .container {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+.page4 img {
+    height: 100%;
+    width: 80%;
+    margin-left: 20%;
+}
+.box {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box h1 {
+     font-size: 3em;
+}
+.box p {
+     font-size: 22px;
+}
+.box h2 {
+    text-decoration: underline 2px  solid;
+}
+
+.container button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+    height: 10%;
+    border: none;
+    background-color: white;
+    font-size: 32px;
+    font-weight: 900;
+
+}
+
+
+/* page 5 code gose here  */
+
+.page5{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.cm {
+    width: 25%;
+    height: 80%;
+    /* background-color: yellow; */
+}
+
+.p5-section1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.p5-section2 {
+    padding: 2%;
+}
+
+.p5-section2 h1 {
+    font-size: 2rem;
+    margin-bottom: 32px;
+    font-weight: 900;
+}
+
+.p5-section2, .p5-section3 p {
+    font-size: 20px;
+}
+ .p5-section3 {
+    padding: 2%;   
+ }
+
+ .p5-section3 p {
+    margin-top: 33% ;
+ }
+
+
+.footer{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fsection1{
+    width: 40%;
+    height: 100%;
+    gap: 16px;
+}
+.fsection1 h1 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.fsection1 .email {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin-top: 16px;
+}
+.email input {
+    width: 70%;
+    height: 64px;
+    background-color: black; 
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+}
+.email button {
+    width: 30%;
+    height: 64px;
+    background-color: white;
+    border-radius: 2px;
+}
+.fsection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    height: 100%;
+}
+
+.fsection2  h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.fsection3{
+    font-size: 32px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 16px;
+}
