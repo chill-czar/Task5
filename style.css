@@ -117,7 +117,7 @@ body {
   font-size: 6rem;
 }
 .hero-container1 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 .hero-container1 button {
   width: 18%;
@@ -174,278 +174,272 @@ body {
 
 /* page2 code start from here  */
 
-
-.page2{
-    height: 100%;
-    width: 100%;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    position: relative;
+.page2 {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .page2 img {
-    height: 60%;
-    width: 50%;
+  height: 60%;
+  width: 50%;
 }
 .page2 .card {
-    height: 40%;
-    width: 70%;
-    background-color: white;
-    position: absolute;
-    right: 0;
-    padding: 5%;
-    display: flex;
-    justify-content: space-between;
+  height: 40%;
+  width: 70%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
 }
- .card .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 16px;
+.card .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
 }
 .card .left p {
-    font-size: 18px;
-    color: gray;
+  font-size: 18px;
+  color: gray;
 }
 .card .left h2 {
-    text-decoration: underline;
-    font-weight: 900;
+  text-decoration: underline;
+  font-weight: 900;
 }
 
 /* third page code  here  */
 
-
-.page3{
-    height: 100%;
-    width: 100%;
-    /* background-color: red; */
-    padding: 5%;
-    display: flex;
-    justify-content: space-between;
+.page3 {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 /* section 1 of page3 code goes here  */
-.p3-section1{
-    width: 20%;
-    height: 100%;
-    padding-left: 5%;
-    /* background-color: yellow; */
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+.p3-section1 {
+  width: 20%;
+  height: 100%;
+  padding-left: 5%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 }
 .p3-section1 h1 {
-    font-weight: 900;
-    margin-top: 16px;  
+  font-weight: 900;
+  margin-top: 16px;
 }
 
 .p3-section1 h3 {
-    margin-top: 16px;
-    font-weight: 900;
+  margin-top: 16px;
+  font-weight: 900;
 }
 .p3-section1 h4 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .p3-section1 button {
-    width: 70%;
-    font-size: medium;
-    font-weight: 900;
-    height: 5%;
-    border: 2.5px solid black;
-    border-radius: 6px;
-    margin-top: 32px;
-    background-color: white;
-    /* background-color: white; */
+  width: 70%;
+  font-size: medium;
+  font-weight: 900;
+  height: 5%;
+  border: 2.5px solid black;
+  border-radius: 6px;
+  margin-top: 32px;
+  background-color: white;
+  /* background-color: white; */
 }
 
-
 /* section 2 of page3 code goes here  */
-.p3-section2{
-    width: 70%;
-    height: 100%;
-    /* background-color: pink; */
+.p3-section2 {
+  width: 70%;
+  height: 100%;
+  /* background-color: pink; */
 }
 
 .p3-section2 img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
-.page4{
-    height: 100%;
-    width: 100%;
-    /* background-color:antiquewhite; */
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.page4 {
+  height: 100%;
+  width: 100%;
+  /* background-color:antiquewhite; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.page4{
-    width: 100%;
-    height: 100%;
-    /* background-color: antiquewhite; */
-    padding: 5% 10%
+.page4 {
+  width: 100%;
+  height: 100%;
+  /* background-color: antiquewhite; */
+  padding: 5% 10%;
 }
 .page4 .container {
-    height: 100%;
-    width: 100%;
-    /* background-color: red; */
-    position: relative;
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
 }
 .page4 img {
-    height: 100%;
-    width: 80%;
-    margin-left: 20%;
+  height: 100%;
+  width: 80%;
+  margin-left: 20%;
 }
 .box {
-    position: absolute;
-    top: 0;
-    background-color: white;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .box h1 {
-     font-size: 3em;
+  font-size: 3em;
 }
 .box p {
-     font-size: 22px;
+  font-size: 22px;
 }
 .box h2 {
-    text-decoration: underline 2px  solid;
+  text-decoration: underline 2px solid;
 }
 
 .container button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 20%;
-    height: 10%;
-    border: none;
-    background-color: white;
-    font-size: 32px;
-    font-weight: 900;
-
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20%;
+  height: 10%;
+  border: none;
+  background-color: white;
+  font-size: 32px;
+  font-weight: 900;
 }
-
 
 /* page 5 code gose here  */
 
-.page5{
-    height: 100%;
-    width: 100%;
-    padding: 10%;
-    /* background-color: blue; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    flex-wrap: wrap;
+.page5 {
+  height: 100%;
+  width: 100%;
+  padding: 10%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
 }
 
 .cm {
-    width: 25%;
-    height: 80%;
-    /* background-color: yellow; */
+  width: 25%;
+  height: 80%;
+  /* background-color: yellow; */
 }
 
 .p5-section1 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .p5-section2 {
-    padding: 2%;
+  padding: 2%;
 }
 
 .p5-section2 h1 {
-    font-size: 2rem;
-    margin-bottom: 32px;
-    font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 32px;
+  font-weight: 900;
 }
 
-.p5-section2, .p5-section3 p {
-    font-size: 20px;
+.p5-section2,
+.p5-section3 p {
+  font-size: 20px;
 }
- .p5-section3 {
-    padding: 2%;   
- }
-
- .p5-section3 p {
-    margin-top: 33% ;
- }
-
-
-.footer{
-    height: 50%;
-    width: 100%;
-    background-color: black;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    display: flex;
-    justify-content: space-between;
+.p5-section3 {
+  padding: 2%;
 }
 
-.fsection1{
-    width: 40%;
-    height: 100%;
-    gap: 16px;
+.p5-section3 p {
+  margin-top: 33%;
+}
+
+.footer {
+  height: 50%;
+  width: 100%;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fsection1 {
+  width: 40%;
+  height: 100%;
+  gap: 16px;
 }
 .fsection1 h1 {
-    color: white;
-    font-size: x-large;
-    font-weight: bold;
-
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
 }
 .fsection1 .email {
-    display: flex;
-    width: 100%;
-    gap: 5px;
-    margin-top: 16px;
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  margin-top: 16px;
 }
 .email input {
-    width: 70%;
-    height: 64px;
-    background-color: black; 
-    border: 1px solid white;
-    border-radius: 2px;
-    color: white;
-    font-size: larger;
-    padding: 10px;
+  width: 70%;
+  height: 64px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  font-size: larger;
+  padding: 10px;
 }
 .email button {
-    width: 30%;
-    height: 64px;
-    background-color: white;
-    border-radius: 2px;
+  width: 30%;
+  height: 64px;
+  background-color: white;
+  border-radius: 2px;
 }
-.fsection2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: white;
-    height: 100%;
-}
-
-.fsection2  h2{
-    font-size: 16px;
-    font-weight: 500;
+.fsection2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  height: 100%;
 }
 
-.fsection3{
-    font-size: 32px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 16px;
+.fsection2 h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fsection3 {
+  font-size: 32px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 16px;
 }
